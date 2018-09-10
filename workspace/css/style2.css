@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+/*  Axel Lundqvist
+    2018-09-07
+    moment 2
+*/
+
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0;padding:0
+}
+body {
+    background-color: #ffffff; /*#f0edeb*/;
+}
+.container {
+    max-width:1240px;
+    margin: 0 auto;
+}
+
+
+section {
+    margin:55px 25px;
+}
+article {
+    padding:15px 0 25px 0;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+     float: left;
+      padding:15px;
+  }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+a {
+    text-decoration: none;
+}
+.blue {
+    background-color: rgb(18, 42, 80);
+    padding-bottom: 200px;
+}
+
+#l {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 4rem;
+    padding-top: 50px;
+}
+
+.hide li {
+    color: white;
+}
