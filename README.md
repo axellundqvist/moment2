@@ -28,6 +28,3 @@ gulp.task('watch', function(){
 
 
 gulp.task('default', ['message', 'run', 'watch']);
-
-
-När arbetet är klart för dagen så går man in i pubmappen och kör git bash där ifrån. Add, commit och push till detta repo.
